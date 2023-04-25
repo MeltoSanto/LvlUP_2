@@ -1,6 +1,4 @@
-import requests
+import random
 
-def get_len_list(ist: list):
-    return len(list)
-fwrefe
-srsr
+n = 10  # размер поля
+grid = [[random.choice([0, 1]) for j in range(n)] for i in range(n)]
